@@ -8,7 +8,9 @@ public class Encapsulation01 {
     prop.name = "Some thing";
     System.out.println(prop.name);
 
+    prop.allAgainst = 32;
     prop.allInFavor = 24;
     System.out.println(prop.allInFavor);
+    System.out.println(prop.allAgainst);
   }
 }
